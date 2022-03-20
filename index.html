@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Series Vault</title>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Series Vault</h1>
+      <h2>Adicione uma série ao seu catálogo</h2>
+      <div class="form">
+        <form action="">
+          <div class="field">
+            <label for="name">Título:</label>
+            <input
+              type="text"
+              name="name"
+              id="name"
+              placeholder="Game of Thrones"
+              size="60"
+              required
+            />
+          </div>
+          <div class="field">
+            <label for="descr">Descrição:</label>
+            <textarea
+              name="descr"
+              id="descr"
+              cols="50"
+              rows="10"
+              maxlength="602"
+              placeholder="Game of Thrones conta a históra de um lugar onde uma força destruiu o equilíbrio das estações, há muito tempo. Em uma terra onde os verões podem durar vários anos e o inverno toda uma vida, as reivindicações e as forças sobrenaturais correm as portas do Reino dos Sete Reinos. A irmandade da Patrulha da Noite busca proteger o reino de cada criatura que pode vir de lá da Muralha..."
+              required
+            ></textarea>
+          </div>
+          <div class="field">
+            <label for="url">URL da imagem:</label>
+            <input type="text" name="url" id="url" size="60" required />
+          </div>
+          <div class="buttons">
+            <button type="submit" id="submit">Enviar</button>
+            <button type="reset">Limpar</button>
+          </div>
+        </form>
+      </div>
+    </div>
+    <div class="cards"></div>
+    <script src="script.js"></script>
+  </body>
+</html>

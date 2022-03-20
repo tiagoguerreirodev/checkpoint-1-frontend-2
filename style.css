@@ -1,0 +1,103 @@
+body {
+  box-sizing: border-box;
+  height: 100vh;
+  font-family: sans-serif;
+  display: flex;
+  margin: 0;
+  padding: 0;
+  overflow: none;
+  background-color: aliceblue;
+}
+
+button {
+  margin-top: 6px;
+}
+
+h1,
+h2 {
+  text-align: center;
+}
+
+h2 {
+  word-wrap: break-word;
+  white-space: normal;
+}
+
+img {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+p {
+  word-break: break-word;
+  white-space: normal;
+}
+
+textarea {
+  resize: none;
+}
+
+label {
+  margin: 5px 0;
+}
+
+label {
+  display: block;
+}
+
+.container {
+  position: fixed;
+  height: 100vh;
+  padding-top: 10vh;
+  background: linear-gradient(
+    120deg,
+    rgba(126, 126, 245, 0.747),
+    rgb(82, 97, 231)
+  );
+}
+
+.field {
+  padding: 6px;
+}
+
+.form {
+  text-align: center;
+}
+
+.form input,
+.form textarea {
+  border: 1px solid black;
+  border-radius: 5px;
+}
+
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: 595px;
+  height: 100%;
+}
+
+.image {
+  height: 40%;
+  text-align: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 15px 15px 0 0;
+}
+
+.card {
+  background: linear-gradient(
+    120deg,
+    rgba(126, 126, 245, 0.747),
+    rgb(82, 97, 231)
+  );
+  width: 350px;
+  height: 500px;
+  border: 1px solid black;
+  border-radius: 15px;
+  margin: 10px;
+}
+
+.card p {
+  font-size: 14px;
+}
